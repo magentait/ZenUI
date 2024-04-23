@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633256962BBADA3300582250 /* ZenUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633256952BBADA3300582250 /* ZenUIApp.swift */; };
+		6332569A2BBADA3800582250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633256992BBADA3800582250 /* Assets.xcassets */; };
+		6332569D2BBADA3800582250 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6332569C2BBADA3800582250 /* Preview Assets.xcassets */; };
+		633256A92BBADBCF00582250 /* FidgetToyGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633256A82BBADBCF00582250 /* FidgetToyGridViewModel.swift */; };
+		633256AB2BBADBDB00582250 /* FidgetToyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633256AA2BBADBDB00582250 /* FidgetToyGridView.swift */; };
+		633256AD2BBADBED00582250 /* FidgetToyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633256AC2BBADBED00582250 /* FidgetToyDetailView.swift */; };
+		635578782BD7242A00A619ED /* Squeak-Sound-Effect-New.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6355786C2BD7242900A619ED /* Squeak-Sound-Effect-New.mp3 */; };
+		635578792BD7242A00A619ED /* slider-on.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6355786D2BD7242A00A619ED /* slider-on.mp3 */; };
+		6355787A2BD7242A00A619ED /* slider-off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6355786E2BD7242A00A619ED /* slider-off.mp3 */; };
+		6355787B2BD7242A00A619ED /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6355786F2BD7242A00A619ED /* A.wav */; };
+		6355787C2BD7242A00A619ED /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 635578702BD7242A00A619ED /* C.wav */; };
+		6355787D2BD7242A00A619ED /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 635578712BD7242A00A619ED /* B.wav */; };
+		6355787E2BD7242A00A619ED /* switchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 635578722BD7242A00A619ED /* switchSound.mp3 */; };
+		6355787F2BD7242A00A619ED /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 635578732BD7242A00A619ED /* F.wav */; };
+		635578802BD7242A00A619ED /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 635578742BD7242A00A619ED /* G.wav */; };
+		635578812BD7242A00A619ED /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 635578752BD7242A00A619ED /* E.wav */; };
+		635578822BD7242A00A619ED /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 635578762BD7242A00A619ED /* D.wav */; };
+		635578832BD7242A00A619ED /* push-button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 635578772BD7242A00A619ED /* push-button.mp3 */; };
+		63BA92562BBC00C70078D8D5 /* ZenUILibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 63BA92552BBC00C70078D8D5 /* ZenUILibrary */; };
+		63BA92592BBC86D80078D8D5 /* ZenUILibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 63BA92582BBC86D80078D8D5 /* ZenUILibrary */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		633256922BBADA3300582250 /* ZenUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633256952BBADA3300582250 /* ZenUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenUIApp.swift; sourceTree = "<group>"; };
+		633256992BBADA3800582250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6332569C2BBADA3800582250 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		633256A82BBADBCF00582250 /* FidgetToyGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetToyGridViewModel.swift; sourceTree = "<group>"; };
+		633256AA2BBADBDB00582250 /* FidgetToyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetToyGridView.swift; sourceTree = "<group>"; };
+		633256AC2BBADBED00582250 /* FidgetToyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetToyDetailView.swift; sourceTree = "<group>"; };
+		6355786C2BD7242900A619ED /* Squeak-Sound-Effect-New.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Squeak-Sound-Effect-New.mp3"; sourceTree = "<group>"; };
+		6355786D2BD7242A00A619ED /* slider-on.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "slider-on.mp3"; sourceTree = "<group>"; };
+		6355786E2BD7242A00A619ED /* slider-off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "slider-off.mp3"; sourceTree = "<group>"; };
+		6355786F2BD7242A00A619ED /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		635578702BD7242A00A619ED /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		635578712BD7242A00A619ED /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		635578722BD7242A00A619ED /* switchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = switchSound.mp3; sourceTree = "<group>"; };
+		635578732BD7242A00A619ED /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		635578742BD7242A00A619ED /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		635578752BD7242A00A619ED /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		635578762BD7242A00A619ED /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		635578772BD7242A00A619ED /* push-button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "push-button.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6332568F2BBADA3300582250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BA92592BBC86D80078D8D5 /* ZenUILibrary in Frameworks */,
+				63BA92562BBC00C70078D8D5 /* ZenUILibrary in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633256892BBADA3200582250 = {
+			isa = PBXGroup;
+			children = (
+				633256942BBADA3300582250 /* ZenUI */,
+				633256932BBADA3300582250 /* Products */,
+				63BA92542BBC00C70078D8D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		633256932BBADA3300582250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633256922BBADA3300582250 /* ZenUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633256942BBADA3300582250 /* ZenUI */ = {
+			isa = PBXGroup;
+			children = (
+				6355786B2BD7242900A619ED /* Sounds */,
+				633256A42BBADAA500582250 /* Screens */,
+				633256952BBADA3300582250 /* ZenUIApp.swift */,
+				633256992BBADA3800582250 /* Assets.xcassets */,
+				6332569B2BBADA3800582250 /* Preview Content */,
+			);
+			path = ZenUI;
+			sourceTree = "<group>";
+		};
+		6332569B2BBADA3800582250 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6332569C2BBADA3800582250 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		633256A42BBADAA500582250 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				633256AF2BBADC1700582250 /* FidgetToyGridView */,
+				633256B02BBADC1F00582250 /* FidgetToyDetailView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		633256AF2BBADC1700582250 /* FidgetToyGridView */ = {
+			isa = PBXGroup;
+			children = (
+				633256AA2BBADBDB00582250 /* FidgetToyGridView.swift */,
+				633256A82BBADBCF00582250 /* FidgetToyGridViewModel.swift */,
+			);
+			path = FidgetToyGridView;
+			sourceTree = "<group>";
+		};
+		633256B02BBADC1F00582250 /* FidgetToyDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				633256AC2BBADBED00582250 /* FidgetToyDetailView.swift */,
+			);
+			path = FidgetToyDetailView;
+			sourceTree = "<group>";
+		};
+		6355786B2BD7242900A619ED /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6355786C2BD7242900A619ED /* Squeak-Sound-Effect-New.mp3 */,
+				6355786D2BD7242A00A619ED /* slider-on.mp3 */,
+				6355786E2BD7242A00A619ED /* slider-off.mp3 */,
+				6355786F2BD7242A00A619ED /* A.wav */,
+				635578702BD7242A00A619ED /* C.wav */,
+				635578712BD7242A00A619ED /* B.wav */,
+				635578722BD7242A00A619ED /* switchSound.mp3 */,
+				635578732BD7242A00A619ED /* F.wav */,
+				635578742BD7242A00A619ED /* G.wav */,
+				635578752BD7242A00A619ED /* E.wav */,
+				635578762BD7242A00A619ED /* D.wav */,
+				635578772BD7242A00A619ED /* push-button.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		63BA92542BBC00C70078D8D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633256912BBADA3300582250 /* ZenUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633256A02BBADA3800582250 /* Build configuration list for PBXNativeTarget "ZenUI" */;
+			buildPhases = (
+				6332568E2BBADA3300582250 /* Sources */,
+				6332568F2BBADA3300582250 /* Frameworks */,
+				633256902BBADA3300582250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenUI;
+			packageProductDependencies = (
+				63BA92552BBC00C70078D8D5 /* ZenUILibrary */,
+				63BA92582BBC86D80078D8D5 /* ZenUILibrary */,
+			);
+			productName = ZenUI;
+			productReference = 633256922BBADA3300582250 /* ZenUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6332568A2BBADA3300582250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					633256912BBADA3300582250 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6332568D2BBADA3300582250 /* Build configuration list for PBXProject "ZenUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633256892BBADA3200582250;
+			packageReferences = (
+				63BA92572BBC86D50078D8D5 /* XCLocalSwiftPackageReference "../ZenUILibrary" */,
+			);
+			productRefGroup = 633256932BBADA3300582250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633256912BBADA3300582250 /* ZenUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633256902BBADA3300582250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635578802BD7242A00A619ED /* G.wav in Resources */,
+				635578822BD7242A00A619ED /* D.wav in Resources */,
+				6355787E2BD7242A00A619ED /* switchSound.mp3 in Resources */,
+				6355787B2BD7242A00A619ED /* A.wav in Resources */,
+				635578792BD7242A00A619ED /* slider-on.mp3 in Resources */,
+				6355787F2BD7242A00A619ED /* F.wav in Resources */,
+				635578832BD7242A00A619ED /* push-button.mp3 in Resources */,
+				635578782BD7242A00A619ED /* Squeak-Sound-Effect-New.mp3 in Resources */,
+				635578812BD7242A00A619ED /* E.wav in Resources */,
+				6355787D2BD7242A00A619ED /* B.wav in Resources */,
+				6332569D2BBADA3800582250 /* Preview Assets.xcassets in Resources */,
+				6332569A2BBADA3800582250 /* Assets.xcassets in Resources */,
+				6355787A2BD7242A00A619ED /* slider-off.mp3 in Resources */,
+				6355787C2BD7242A00A619ED /* C.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6332568E2BBADA3300582250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633256A92BBADBCF00582250 /* FidgetToyGridViewModel.swift in Sources */,
+				633256AD2BBADBED00582250 /* FidgetToyDetailView.swift in Sources */,
+				633256962BBADA3300582250 /* ZenUIApp.swift in Sources */,
+				633256AB2BBADBDB00582250 /* FidgetToyGridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6332569E2BBADA3800582250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6332569F2BBADA3800582250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633256A12BBADA3800582250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyumien.ZenUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		633256A22BBADA3800582250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyumien.ZenUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6332568D2BBADA3300582250 /* Build configuration list for PBXProject "ZenUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332569E2BBADA3800582250 /* Debug */,
+				6332569F2BBADA3800582250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633256A02BBADA3800582250 /* Build configuration list for PBXNativeTarget "ZenUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633256A12BBADA3800582250 /* Debug */,
+				633256A22BBADA3800582250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		63BA92572BBC86D50078D8D5 /* XCLocalSwiftPackageReference "../ZenUILibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ZenUILibrary;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63BA92552BBC00C70078D8D5 /* ZenUILibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZenUILibrary;
+		};
+		63BA92582BBC86D80078D8D5 /* ZenUILibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZenUILibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6332568A2BBADA3300582250 /* Project object */;
+}
