@@ -48,22 +48,15 @@ public struct TicTacToeContentView: View {
                     .font(.title)
                     .padding()
             }
-
             
-            Button {
-                restartGame()
-            } label: {
-                Text("Restart")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .frame(width: 280, height: 50)
-                    .foregroundColor(.white)
-                    .background(Color("brandSecondary"))
-                    .cornerRadius(10)
-            }
+            
+            BottomButton(
+                text: "Restart",
+                action: restartGame,
+                bodyColor: Color("brandSecondary")
+            )
             .padding()
 
-            
             Spacer()
         }
         .padding()

@@ -15,6 +15,10 @@ public struct RandomNumberGeneratorView: View {
         self._randomNumber = State(initialValue: randomNumber)
     }
     
+    func generateNumber() {
+        randomNumber = Int.random(in: 1..<1000)
+    }
+    
     public var body: some View {
         VStack {
             Text("\(randomNumber)")
@@ -23,19 +27,12 @@ public struct RandomNumberGeneratorView: View {
                 .frame(width: 400, height: 400)
                 .padding()
             
-            Button {
-                // Generate random number
-                randomNumber = Int.random(in: 1..<1000)
-            } label: {
-                Text("Generate")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .frame(width: 280, height: 50)
-                    .background(Color("brandSecondary"))
-                    .foregroundColor(.white)
-                    .background(Color("brandSecondary"))
-                    .cornerRadius(10)
-            }
+            
+            BottomButton(
+                text: "Generate",
+                action: generateNumber,
+                bodyColor: Color("brandSecondary")
+            )
             .padding()
         }
     }

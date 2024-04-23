@@ -13,6 +13,10 @@ public struct CookieClickerContentView: View {
     
     @State var cookies: Int = 0
     
+    func resetCookies() {
+        cookies = 0
+    }
+    
     public var body: some View {
         VStack {
             
@@ -32,18 +36,11 @@ public struct CookieClickerContentView: View {
             }).buttonStyle(.plain)
                 .padding(.bottom, 100)
             
-            
-            Button(action: {
-                cookies = 0
-            }, label: {
-                Text("Reset Cookies")
-                    .font(.title)
-                    .fontWeight(.semibold)
-                    .frame(width: 280, height: 50)  // Button size
-                    .foregroundColor(.white)
-                    .background(Color("brandPrimary"))  // Using a custom color
-                    .cornerRadius(10)
-            }).buttonStyle(.plain)
+            BottomButton(
+                text: "Reset Cookies",
+                action: resetCookies
+            )
+            .padding()
         }
     }
 }

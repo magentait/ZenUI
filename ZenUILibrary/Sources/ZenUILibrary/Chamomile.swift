@@ -13,6 +13,14 @@ struct ChamomileView: View {
     init() {
         _petals = State(initialValue: Array(repeating: true, count: 12))
     }
+    
+    func resetPetals() {
+        withAnimation {
+            for i in petals.indices {
+                petals[i] = true
+            }
+        }
+    }
 
     var body: some View {
         VStack {
@@ -36,21 +44,11 @@ struct ChamomileView: View {
             .frame(width: 250, height: 350)
             .padding()
             
-            Button {
-                withAnimation {
-                    for i in petals.indices {
-                        petals[i] = true
-                    }
-                }
-            } label: {
-                Text("Reset Petals")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .frame(width: 280, height: 50)
-                    .foregroundColor(.white)
-                    .background(Color("brandSecondary"))
-                    .cornerRadius(10)
-            }
+            BottomButton(
+                text: "Reset Petals",
+                action: resetPetals,
+                bodyColor: Color("brandSecondary")
+            )
             .padding()
         }
     }

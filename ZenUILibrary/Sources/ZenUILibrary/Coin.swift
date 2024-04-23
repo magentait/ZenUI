@@ -13,6 +13,10 @@ public struct CoinTossContentView: View {
     // dice number
     @State private var coinSideNumber = 1
     
+    func tossCoin() {
+        coinSideNumber = Int.random(in: 1...2)
+    }
+    
     public var body: some View {
         VStack {
             Image("Coin\(coinSideNumber)")
@@ -26,19 +30,8 @@ public struct CoinTossContentView: View {
                 .fontWeight(.bold)
                 .padding()
             
-            Button {
-                // Generate random coin side number
-                coinSideNumber = Int.random(in: 1...2)
-            } label: {
-                Text("Toss")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .frame(width: 280, height: 50)
-                    .foregroundColor(.white)
-                    .background(Color("brandPrimary"))
-                    .cornerRadius(10)
-            }
-            .padding()
+            BottomButton(text: "Toss", action: tossCoin)
+                .padding()
         }
     }
 }

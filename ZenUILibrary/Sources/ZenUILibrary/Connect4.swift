@@ -122,18 +122,10 @@ public struct ConnectFourContentView: View {
             }
             .padding()
             
-            Button {
-                // Generate random coin side number
-                gameBoard.resetBoard()
-            } label: {
-                Text("New Game")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .frame(width: 280, height: 50)
-                    .foregroundColor(.white)
-                    .background(Color("brandPrimary"))
-                    .cornerRadius(10)
-            }
+            BottomButton(
+                text: "New Game",
+                action: gameBoard.resetBoard
+            )
             .padding()
 
         }

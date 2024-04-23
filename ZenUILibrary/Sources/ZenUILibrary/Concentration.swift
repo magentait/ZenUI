@@ -73,17 +73,10 @@ public struct ConcentrationContentView: View {
             }
             .padding()
             
-            Button {
-                viewModel.resetGame()
-            } label: {
-                Text("Restart Game")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .frame(width: 280, height: 50)
-                    .foregroundColor(.white)
-                    .background(Color("brandPrimary"))
-                    .cornerRadius(10)
-            }
+            BottomButton(
+                text: "Restart Game",
+                action: viewModel.resetGame
+            )
             .padding()
         }
     }
